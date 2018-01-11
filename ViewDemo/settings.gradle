@@ -1,0 +1,1 @@
+include ':RecyclerviewDemo', ':ToolbarDemo', ':DrawerLayoutDemo', ':DrawerLayoutDemo_Auto', ':TabLayoutDemo', ':CoordinatorLayoutDemo', 'MaterialDesignDemo'

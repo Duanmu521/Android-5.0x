@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.strivestay.toolbardemo.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MainActivity"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <android.support.v7.widget.ActionMenuView
+            android:id="@+id/amv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:theme="@style/AppTheme.ToolbarPopupTheme">
+
+        </android.support.v7.widget.ActionMenuView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World"
+            android:textSize="18sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转到Fragemnt Toolbar示例"
+            android:onClick="jump"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/shadow"/>
+    </FrameLayout>
+
+
+</LinearLayout>

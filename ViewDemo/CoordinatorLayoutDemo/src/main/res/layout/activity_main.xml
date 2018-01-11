@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="
+    宋祖儿（lareina），1998年5月23日出生于天津，中国内地影视女演员。
+    2005年，宋祖儿出演了个人首部影视作品《海阔天高》，由此开始涉足演艺圈[1]  。2007年，首次登上央视春晚舞台，并表演节目《阳光下的花朵》[2]  ；同年，由她领衔主演的公益电影《你是天使》上映[3]  。2009年，因在古装神话剧《宝莲灯前传》中饰演哪吒而被观众熟知[4]  。
+    2016年，主演喜剧冒险片《洛杉矶捣蛋计划》[5]  。2017年，除了加盟湖南卫视明星自助旅游真人秀《花儿与少年第三季》[6]  ，她还主演古代传奇《九州缥缈录》及青春剧《全职高手》[7]  。
+"
+            android:textSize="22sp"/>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:elevation="8dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

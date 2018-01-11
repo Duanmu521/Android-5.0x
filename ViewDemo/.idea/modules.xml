@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" filepath="$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrawerLayoutDemo/DrawerLayoutDemo.iml" filepath="$PROJECT_DIR$/DrawerLayoutDemo/DrawerLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrawerLayoutDemo_Auto/DrawerLayoutDemo_Auto.iml" filepath="$PROJECT_DIR$/DrawerLayoutDemo_Auto/DrawerLayoutDemo_Auto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" filepath="$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerviewDemo/RecyclerviewDemo.iml" filepath="$PROJECT_DIR$/RecyclerviewDemo/RecyclerviewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabLayoutDemo/TabLayoutDemo.iml" filepath="$PROJECT_DIR$/TabLayoutDemo/TabLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolbarDemo/ToolbarDemo.iml" filepath="$PROJECT_DIR$/ToolbarDemo/ToolbarDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewDemo.iml" filepath="$PROJECT_DIR$/ViewDemo.iml" />
+    </modules>
+  </component>
+</project>
